@@ -76,5 +76,6 @@ Enemy.prototype = {
     }
 };
 
-
-game = new Game("gamefield");
+window.onload = function() {
+    game = new Game("gamefield");
+};
